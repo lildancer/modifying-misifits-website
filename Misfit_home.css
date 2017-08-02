@@ -1,0 +1,36 @@
+body {background-image: url("A pond.jpg") ;background-size:75%;
+background-repeat:no-repeat;background-position:center; background-attachment:fixed;background-color: #000000;
+
+}
+/*header {background-image:url("A Pond.jpg");
+        background-position:center;
+      font-weight:bolder;}*/
+h1 {/*background-image: radial-gradient(#2a388b, #73778F)*/; background-size: contain; background-position: 0 0; bacground-attachment:fixed; font-family: 'Dancing Script', cursive; ;}
+h1 {font-size:60px; text-align:center;color: #E7A071;}
+#link :link{color: #2A388B;}
+#link :visited {color: #5D109C;}
+#link :hover{background-color: #73778F}
+#link :active{background-color:#001f3f;}
+#link {border-color:#e7a071; border-style:outset;border-collapse:separate;
+  display:flex; justify-content:flex-start; align-items:stretch;}
+nav {text-align:center;font-family: 'Satisfy', cursive; font-size-adjust:auto; display:flex align-text:column;}
+
+.buttons {font-size:28px; text-align:center space; display: inline-block;}
+#welcome {text-align:Center;font-size:21px;}
+.books {text-alighn:left;}
+.Guild {text-align:center;
+        text-decoration:underline #737787;
+        color: #2A388B;}
+p {color: aliceblue;font-family: 'Norican', cursive;}
+h2 {color: #0D0E8A; text-align:Center;}
+/* .Christie {background-image: url("A Pond.jpg");background-position: left; background-size: cover;} */
+h3 {color: #0D0E8A;}
+.wrapper {width:75%;margin-left:auto; margin-right:auto;}
+footer {color:white; position: absolute; right:0; bottom:0; left:0; height: 5%; background-color: #black; text-align: center;}
+body {
+    min-height:100vh;
+    position:relative;
+    padding-bottom: 5%;
+}
+.titles {color:#001f3f;}
+li {color:aliceblue; text-align:left;}
