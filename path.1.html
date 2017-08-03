@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en"  >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Reflected</title>
+
+  <link href = "Misfit_home.css" rel = "stylesheet">
+</head>
+<body id = "reflect">
+  <div class = "wrapper">
+    <header>
+       <h1 style= "margin:0; color: #000000; text-shadow:6px 6px 12px #FFFCDC;" > Mirrored Realms </h1>
+         <nav class = "buttons" >
+           <a href="index.html">Entrance</a>
+           <a href="Home.html">Origins</a>
+           <a href="Stories.html">Tales and Myths</a>
+           <a href="Characters.html"> Guild Members</a>
+           <a href="About.html">The Creator </a>
+         </nav>
+    </header>
+    <h3> Portal One</h3>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h4> Where you'll find it </h4>
+      <div id = "map">
+        <script>
+          function initMap() {
+            var waterfall = {lat: 51.929089, lng:-8.570961};
+            var map = new google.maps.Map(document.getElementById('map'), {
+              zoom: 17,
+              center: waterfall,
+              heading: 90,
+              tilt: 45,
+               mapTypeId: 'satellite'
+
+              // 51.9315975,-8.5683233
+            });
+            var marker = new google.maps.Marker({
+              position: waterfall,
+              map: map
+            });
+          }
+        </script>
+      </div>
+
+
+  </div>
+
+  <script
+    src="http://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9CspmSXRry3b-mBs1m-vEMw7gg0OO_sI&callback=initMap">
+    </script>
+  </body>
+  <script src="app.misfit.js" charset="utf-8"></script>
+</body>
+</html>
