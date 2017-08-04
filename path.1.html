@@ -4,48 +4,56 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Reflected</title>
+  <title>Wilderness</title>
 
   <link href = "Misfit_home.css" rel = "stylesheet">
 </head>
 <body id = "reflect">
+  <header>
+    <p id = "date" > </p>
+    <h1 style= " color: #000000; text-shadow:6px 6px 12px #FFFCDC;" > Wild Born </h1>
+    <nav class = "buttons" >
+      <a href="main.html">Entrance</a>
+      <a href="Home.html">Origins</a>
+      <a href="Stories.html">Tales and Myths</a>
+      <a href="Characters.html"> Guild Members</a>
+      <a href="About.html">The Creator </a>
+    </nav>
+  </header>
   <div class = "wrapper">
-    <header>
-       <h1 style= "margin:0; color: #000000; text-shadow:6px 6px 12px #FFFCDC;" > Mirrored Realms </h1>
-         <nav class = "buttons" >
-           <a href="index.html">Entrance</a>
-           <a href="Home.html">Origins</a>
-           <a href="Stories.html">Tales and Myths</a>
-           <a href="Characters.html"> Guild Members</a>
-           <a href="About.html">The Creator </a>
-         </nav>
-    </header>
-    <h3> Portal One</h3>
-      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div id= "block">
+    <h3> Secret Falls </h3>
+      <p class = "paragraph"> <em>Don't let them follow you. </em></p>
+      <p class = "paragraph"> His words echoed in my mind as I ran through forest as fast and as quietly as possible. If I was going to escape through the portal it had to be now. There was no way I going to let them get me again, but I couldn't show them the way. </p>
+      <p class = "paragraph"> <em>Snap.Crack.<em> Shoot!</p>
+      <p class = "paragraph"> I growled under my breath and turned at a random tree heading back the way I came. With every hit of the branches I passed I began to lose energy and so in the milliseconds before I was back in his sites I jumped into a tree and waited.</p>
+      <p class = "paragraph"> Not even a minute later he was under the tree, searching along the ground for any clue as to where I was.  I stopped breathing, and watched as he just stood there. </p>
+      <p class = "paragraph"> He waited for a few minutes before finally continuing through the trees back the way we had come when he first started chasing me. </p>
+      <p class = "paragraph"> I released my breath and sat in the tree before jumping through the trees to the waterfall. Once I reached the rock that jutted over the fall, keeping it hidden from those unaware of its existence I dropped to the ground. Breathing calmly I took a few steps back and dived into the algae covered water into a world I'd now officially called my own. </p>
 <h4> Where you'll find it </h4>
-      <div id = "map">
-        <script>
-          function initMap() {
-            var waterfall = {lat: 51.929089, lng:-8.570961};
-            var map = new google.maps.Map(document.getElementById('map'), {
-              zoom: 17,
-              center: waterfall,
-              heading: 90,
-              tilt: 45,
-               mapTypeId: 'satellite'
+<div id = "map">
+  <script>
+    function initMap() {
+      var waterfall = {lat: 51.929089, lng:-8.570961};
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 17,
+        center: waterfall,
+        heading: 90,
+        tilt: 180,
+         mapTypeId: 'satellite'
 
-              // 51.9315975,-8.5683233
-            });
-            var marker = new google.maps.Marker({
-              position: waterfall,
-              map: map
-            });
-          }
-        </script>
-      </div>
+        // lat and lng for Blarney Castle --> 51.9315975,-8.5683233
+      });
+      var marker = new google.maps.Marker({
+        position: waterfall,
+        map: map
+      });
+    }
+  </script>
+</div>
+</div>
 
 
-  </div>
 
   <script
     src="http://code.jquery.com/jquery-3.2.1.min.js"
@@ -55,7 +63,14 @@
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9CspmSXRry3b-mBs1m-vEMw7gg0OO_sI&callback=initMap">
     </script>
+  </div>
   </body>
   <script src="app.misfit.js" charset="utf-8"></script>
 </body>
+
+<footer>
+ <h5>Copyright © 2017 Carmel McGee</h5>
+ <a  class = "foot" href="main.html">Entrance</a>
+</footer>
+
 </html>

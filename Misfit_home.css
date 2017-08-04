@@ -2,15 +2,6 @@
 
 body {
   background-image: url("A pond.jpg");
-  background-size: 87%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-color: #000000;
-}
-
-#reflect {
-  background-image: url("BlarneyCastleWaterfall.jpg");
   background-size: 75%;
   background-repeat: no-repeat;
   background-position: center;
@@ -18,9 +9,30 @@ body {
   background-color: #000000;
 }
 
+#block {
+  background-color: rgba(0, 0, 0, 0.38)
+}
+
+#jump {
+  background-image: url("Glasgow Scotland.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-attachment: fixed; */
+  background-color: #000000;
+}
+
+#reflect {
+  background-image: url("BlarneyCastleWaterfall.jpg");
+  background-size: 80%;
+  backcground-repeat: repeat;
+  background-position: center;
+  /*background-attachment:fixed; */
+  background-color: black
+}
 
 header {
-  background-color: rgba(83, 108, 51, 0.18);
+  background-color: rgba(83, 108, 51, 0.38);
 }
 
 h1 {
@@ -41,17 +53,16 @@ h1 {
   color: #546D33;
 }
 
-
 a:link {
   color: aliceblue;
 }
 
 a:visited {
-  color: #547727;
+  color: lightblue;
 }
 
 a:hover {
-  background-color: #73778F
+  background-color: #547727;
 }
 
 a:active {
@@ -76,11 +87,15 @@ nav {
 }
 
 .titles {
-  color: #001f3f;
+  color: #AED6F1;
 }
 
 .path.1 {
   color: #546D33;
+}
+
+.paragraph {
+  font-size: 1.3em;
 }
 
 
@@ -99,8 +114,7 @@ nav {
   text-align: Center;
   font-size: 21px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .books {
@@ -110,7 +124,7 @@ nav {
 .Guild {
   text-align: center;
   text-decoration: underline #737787;
-  color: #2A388B;
+  color:#0D0E8A;
 }
 
 p {
@@ -123,11 +137,23 @@ h2 {
   text-align: Center;
 }
 
+.paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end
+}
+
 
 /* .Christie {background-image: url("A Pond.jpg");background-position: left; background-size: cover;} */
 
 h3 {
-  color: #0D0E8A;
+  color: #ABEBC6;
+  font-size: 1.5em;
+}
+
+h4 {
+  color: #ABEBC6;
+  font-size: 1.3em;
 }
 
 .wrapper {
@@ -166,6 +192,32 @@ li {
   height: 200px;
   width: 25%;
 }
-#path2 {background-color: rgba(0, 0, 20, 0.47);
+
+#path2 {
+  background-color: rgba(0, 0, 20, 0.47);
+}
+
+.foot {
+  color: #546D33
+}
+
+
+/*
+#foot:link {
+  color: aliceblue;
+}
+
+#foot:visited {
+  #001f3f;
+}
+
+#foot:hover {
+  background-color: rgba (0, 0, 0, 0, 0.2)
+}
+
+#foot:active {
+  background-color: aliceblue;
+}
+
 
 }
