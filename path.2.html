@@ -1,81 +1,78 @@
 <!DOCTYPE html>
-<html lang="en"  >
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title> Reflected </title>
 
-  <link href = "Misfit_home.css" rel = "stylesheet">
+  <link href="Misfit_home.css" rel="stylesheet">
 
-  <script
-  src="http://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src=app.misfit.js></script>
 
 </head>
-<body id = "jump">
-  <div class = "wrapper">
+
+<body id="jump">
+  <div class="wrapper">
     <header>
-       <h1 style= "margin:0; color: #000000; text-shadow:6px 6px 12px #FFFCDC;" > Mirrored Realms </h1>
-         <nav  id - "path2" class = "buttons" >
-           <a href="main.html">Entrance</a>
-           <a href="Home.html">Origins</a>
-           <a href="Stories.html">Tales and Myths</a>
-           <a href="Characters.html"> Guild Members</a>
-           <a href="About.html">The Creator </a>
-         </nav>
+      <h1 style="margin:0; color: #000000; text-shadow:6px 6px 12px #FFFCDC;"> Mirrored Realms </h1>
+      <nav id - "path2" class="buttons">
+        <a href="main.html">Entrance</a>
+        <a href="Home.html">Origins</a>
+        <a href="Stories.html">Tales and Myths</a>
+        <a href="Characters.html"> Guild Members</a>
+        <a href="About.html">The Creator </a>
+      </nav>
     </header>
-    <div id = "block">
-    <main>
-      <h3> Rushing Water </h3>
-        <p class = "paragraph"> "You want me to what? </p>
-        <p class = "paragraph">"I don't want you to do anything. He wants you to come with us. You want to come with us. So I'm going to need you to jump." </p>
-        <p class = "paragraph"> He began to tap his fingers along the bridge, legs swinging back and forth as he stared at me. </p>
-        <p class = "paragraph"> "You don't like me. I get it, but you could be a little more helpful," I marched towards him and placed my hands on my hips. "I didn't ask you to come help me, so if you aren't going to be helpful you can leave." </p>
-        <p class = "paragraph"> He laughed. The biscuit laughed at me, and if it hadn't been for the fact my mama told me not to hit people who are laughing I'd have punched him.</p>
-      <p class = "paragraph"> "You want help darling?," he stood up and walked towards me. "Here."
-      Next thing I knew I was falling over the bridge. </p>
-  <h4> Where you'll find it </h4>
-      <p>
+    <div id="block">
+      <main>
+        <h3> Rushing Water </h3>
+        <p class="paragraph"> "You want me to what? </p>
+        <p class="paragraph">"I don't want you to do anything. He wants you to come with us. You want to come with us. So I'm going to need you to jump." </p>
+        <p class="paragraph"> He began to tap his fingers along the bridge, legs swinging back and forth as he stared at me. </p>
+        <p class="paragraph"> "You don't like me. I get it, but you could be a little more helpful," I marched towards him and placed my hands on my hips. "I didn't ask you to come help me, so if you aren't going to be helpful you can leave." </p>
+        <p class="paragraph"> He laughed. The biscuit laughed at me, and if it hadn't been for the fact my mama told me not to hit people who are laughing I'd have punched him.</p>
+        <p class="paragraph"> "You want help darling?," he stood up and walked towards me. "Here." Next thing I knew I was falling over the bridge. </p>
+        <h4> Where you'll find it </h4>
+        <p>
 
-  <div id = "map">
-    <script>
-      function initMap() {
-        var waterfall = {lat: 55.8681354, lng:-4.2876436};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 17,
-          center: waterfall,
-          heading: 80,
-          tilt: 90,
-           mapTypeId: 'satellite'
+          <div id="map">
+            <script>
+              function initMap() {
+                var waterfall = {
+                  lat: 55.8681354,
+                  lng: -4.2876436
+                };
+                var map = new google.maps.Map(document.getElementById('map'), {
+                  zoom: 17,
+                  center: waterfall,
+                  heading: 80,
+                  tilt: 90,
+                  mapTypeId: 'satellite'
 
-          // lat and lng for Blarney Castle --> 51.9315975,-8.5683233
-        });
-        var marker = new google.maps.Marker({
-          position: waterfall,
-          map: map
-        });
-      }
-    </script>
+                  // lat and lng for Blarney Castle --> 51.9315975,-8.5683233
+                });
+                var marker = new google.maps.Marker({
+                  position: waterfall,
+                  map: map
+                });
+              }
+            </script>
+          </div>
+
+    </div>
   </div>
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
-  </div>
-  </div>
-      <script
-        src="http://code.jquery.com/jquery-3.2.1.min.js"
-        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-        crossorigin="anonymous"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9CspmSXRry3b-mBs1m-vEMw7gg0OO_sI&callback=initMap">
+  </script>
+</body>
 
-        <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9CspmSXRry3b-mBs1m-vEMw7gg0OO_sI&callback=initMap">
-        </script>
-  </body>
+<footer>
+  <h5>Copyright © 2017 Carmel McGee</h5>
+  <a class="foot" href="main.html">Entrance</a>
+</footer>
 
-  <footer>
-   <h5>Copyright © 2017 Carmel McGee</h5>
-   <a  class = "foot" href="main.html">Entrance</a>
-  </footer>
-
-  </html>
+</html>
